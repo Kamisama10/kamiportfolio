@@ -44,7 +44,7 @@ header {
   justify-content: space-between;
   padding: 5px 20px;
   height: 80px;
-  position: relative;
+  position: fixed;
   top: 0;
   z-index: 999;
   max-width: 1120px;
@@ -115,8 +115,8 @@ section#home {
 }
 
 .home-img img {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   animation: float 5s ease-in-out infinite;
   border-radius: 50%;
 }
